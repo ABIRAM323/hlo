@@ -1,1 +1,2 @@
-web: npm start
+
+web: gunicorn <filename>:<main method name>
